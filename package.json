@@ -1,0 +1,26 @@
+{
+  "name": "@zhike/ti-react-cli",
+  "version": "1.0.0",
+  "description": "搭建一个题库的脚手架，提升开发效率",
+  "main": "index.js",
+  "bin": {
+    "build-react": "bin/react-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "creat-react",
+    "react",
+    "cli"
+  ],
+  "author": "xiaoyin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.3.1",
+    "ora": "^3.4.0"
+  }
+}
