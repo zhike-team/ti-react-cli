@@ -16,6 +16,9 @@ program.command('init')
     require(res('init'))
   })
 
-if(!program.args.length) {
+program.parse(process.argv);
+
+if(program.args && !program.args.length) {
     program.help()
 }
+console.log('program.args:', program.args);

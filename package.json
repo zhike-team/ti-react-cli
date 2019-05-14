@@ -1,5 +1,5 @@
 {
-  "name": "@zhike/ti-react-cli",
+  "name": "@zhike/build-react",
   "version": "1.0.0",
   "description": "搭建一个题库的脚手架，提升开发效率",
   "main": "index.js",
